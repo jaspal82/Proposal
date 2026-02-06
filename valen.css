@@ -11,6 +11,7 @@ body {
     animation: bgShift 8s ease infinite;
     min-height: 100vh;
     max-height: 100vh;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -386,4 +387,5 @@ h1 {
         font-size: 20px;
     }
 }
+
 
