@@ -12,8 +12,8 @@ body {
     background-size: 200% 200%;
     animation: bgShift 8s ease infinite;
 
-    min-height: 100svh; /* better than vh on mobile */
-    width: 100%;
+    min-height: 94svh; /* better than vh on mobile */
+    width: 95vw;
     padding: 16px;
 
     display: flex;
@@ -22,6 +22,7 @@ body {
 
     overflow-x: hidden;
     position: relative;
+    overflow: hidden;
 }
 
 /* BACKGROUND ANIMATION */
@@ -186,3 +187,4 @@ h1 {
         flex-direction: row;
     }
 }
+
